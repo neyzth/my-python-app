@@ -31,3 +31,10 @@ jobs:
         run: |
           source venv/bin/activate
           pytest
+<<<<<<< HEAD
+=======
+      - name: Vérifier la qualité du code avec Flake8
+        uses: py-actions/flake8@v2
+        with:
+          path: "."
+>>>>>>> f8280c6b1ef619bbdee9eddbf4439c42673f3be3
