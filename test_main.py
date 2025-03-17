@@ -1,6 +1,11 @@
-# test_main.py
-from main import add
+import os # Erreur : import inutilisé
 
-def test_add():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
+def add(a,b): # Avertissement : pas d'espace après la virgule
+    return a+b # Avertissement : indentation incorrecte (doit être 4 espaces)
+
+def multiply(x, y):
+    return x * y # Avertissement : espace manquant avant le commentaire
+
+class MyClass:
+    def __init__(self):
+        self.value= 0 # Avertissement : espace manquant autour de l'opérateur '='
